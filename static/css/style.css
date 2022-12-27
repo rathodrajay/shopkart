@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
+
+html {
+  font-size: 14px;
+}
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: top;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.old_price {
+  font-weight: bold;
+  color: red;
+  padding: 15px;
+  margin-left: 2px;
+  margin-top: 15px;
+}
+
+ span.new_price {
+  font-weight: bold;
+  font-size: 25px;
+  background-color: green;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  margin-left: 15px;
+  
+}
+.colbox .card-text{
+
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  
+ 
+}
+.card-text p{
+  margin-left: 15px;
+ 
+}
+.pic-box {
+  position: relative;
+}
+
+.crp{
+  margin-left: -15px;
+}
+.hot {
+  background-color: orangered;
+  color: white;
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+  display: inline;
+  border-radius: 5px 20px  20px 5px;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 10;
+  margin-left: 5px;
+}
+.colbox2{
+    height: 480px;
+  }
+  .colbox{
+    height: 500px;
+  }
+.colimg{
+  width: 230px;
+  height: 210px;
+  margin-left: 14px;
+}
+.pic-box img{
+  width: 400px;
+  height: 400px;
+}
+h5{
+
+  font-size: 15px;
+}
+.card{
+  padding: 15px;
+  margin-left: 20px;
+}
+.card:hover{
+  /* padding: 25px; */
+  border-radius: 15px;
+  background-color: beige;
+
+
+
+ 
+}
+.card:hover img{
+  border-radius: 10px;
+}
+
+
+.crdbx{
+  padding: 10px;
+  margin-left: -20px;
+  margin-top: 8px;
+}
+.crdbx .new_price{
+  margin-left: 10px;
+}
+
+.fav{
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 20px;
+}
+
+.ft a i{
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.az{
+  font-size: 25px;
+}
+
+ .fb:hover{
+  
+  color: rgb(45, 45, 220);
+
+ padding-left: 18px;
+ padding-right: 18px;
+  background-color:white;
+
+  
+}
+.tw:hover{
+
+  color: lightblue;
+  background-color:white;
+  
+}
+.gg:hover{
+
+  color:blue;
+  background-color:white;
+ 
+}
+.in:hover{
+
+  color: aqua;
+  background-color:white;
+
+}
+.lin:hover{
+
+  color: darkblue;
+  background-color:white;
+}
+.git:hover{
+
+  color: black;
+  background-color:white;
+}
+
