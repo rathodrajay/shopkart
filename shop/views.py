@@ -9,6 +9,8 @@ import json
  
 def home(request):
   products=Product.objects.filter(trending=1)
+  if request.GET.get("search"):
+        products=products.filter(name__icontains=request.GET.get("search"))  
   return render(request,"index.html",{"products":products})
  
 def favviewpage(request):
@@ -123,6 +125,8 @@ def collectionsview(request,name):
   products=Product.objects.filter(trending=1)
   if(Catagory.objects.filter(name=name,status=0)):
       products=Product.objects.filter(category__name=name)
+      if request.GET.get("search"):
+        products=products.filter(name__icontains=request.GET.get("search"))
       return render(request,"index2.html",{"products":products,"category_name":name})
   else:
     messages.warning(request,"No Such Catagory Found")
